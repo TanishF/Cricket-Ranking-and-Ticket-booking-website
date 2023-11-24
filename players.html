@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players</title>
+</head>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body style="background-color: black;">
+
+    <header>
+        <div class="logo"><img src="logo.png" ></div>
+        <div class="social">
+            <i id="f" href="#contact" class="fa-brands fa-instagram"></i>
+            <i href="#contact" class="fa-brands fa-facebook"></i>
+            <i href="#contact" class="fa-brands fa-linkedin"></i>
+            <i href="#contact" class="fa-brands fa-github"></i>
+        </div>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./fixtures.html">Fixtures</a></li>
+            <li><a href="./ranking.html">Rankings</a></li>
+            <li><a  class="active" href="#contact">Players</a></li>
+            <li><a href="./tickets.php">Tickets</a></li>
+            <li><a href="./login.php">Discussions</a></li>
+
+        </ul>
+
+
+    </header>
+
+    <section>
+
+
+          <br><br>
+        <ul class="ranks">
+            <li><button class="ractive">T20</a></li>
+            <li><button onclick="scroll1()">ODI</a></li>
+            <li><button onclick="scroll2()">TEST</a></li>
+          </ul>
+
+          <br><br>
+
+        <div class="pl">ICC T20 Rankings</div>
+        <br><br>
+        <center>
+        <table border="5">
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Rating</th>
+            </tr>
+            <tr style="background-color: rgb(18, 53, 226);">
+                <td><h2><center>1</center></h1></td>
+                <td class="name"><img src="skyr.png"><h2>Suryakumar Yadav</h2></td>
+                <td><img src="in.svg"><h2>India</h2></td>
+                <td><h2>906</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>2</center></h1></td>
+                <td class="name"><img src="mr.png"><h2>Mohammad Rizwan</h2></td>
+                <td><img src="pk.svg"><h2>Pakistan</h2></td>
+                <td><h2>811</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>3</center></h1></td>
+                <td class="name"><img src="babar.png"><h2>Babar Azam</h2></td>
+                <td><img src="pk.svg"><h2>Pakistan</h2></td>
+                <td><h2>756</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>4</center></h1></td>
+                <td class="name"><img src="am.png"><h2>Aiden Markram</h2></td>
+                <td><img src="za.svg"><h2>South Africa</h2></td>
+                <td><h2>748</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>5</center></h1></td>
+                <td class="name"><img src="rr.png"><h2>Rilee Rossouw</h2></td>
+                <td><img src="za.svg"><h2>South Africa</h2></td>
+                <td><h2>724</h2></td>
+            </tr>
+            
+        </table>
+        <br><br>
+        <ul class="ranks">
+            <li><button onclick="scroll0()">T20</a></li>
+            <li><button class="ractive">ODI</a></li>
+            <li><button onclick="scroll2()">TEST</a></li>
+          </ul>
+        <br><br>
+        <div class="pl">ICC ODI Rankings</div>
+        <br><br>
+        <table border="5">
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Rating</th>
+            </tr>
+            <tr  style="background-color: rgb(18, 53, 226);">
+                <td><h2><center>1</center></h1></td>
+                <td class="name"><img src="babar.png"><h2>Babar Azam</h2></td>
+                <td><img src="pk.svg"><h2>Pakistan</h2></td>
+                <td><h2>887</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>2</center></h1></td>
+                <td class="name"><img src="fz.png"><h2>Fakhar Zaman</h2></td>
+                <td><img src="pk.svg"><h2>Pakistan</h2></td>
+                <td><h2>784</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>3</center></h1></td>
+                <td class="name"><img src="rd.png"><h2>Rassie van der Dussen</h2></td>
+                <td><img src="za.svg"><h2>South Africa</h2></td>
+                <td><h2>777</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>4</center></h1></td>
+                <td class="name"><img src="sg.png"><h2>Shubman Gill</h2></td>
+                <td><img src="in.svg"><h2>India</h2></td>
+                <td><h2>738</h2></td>
+            </tr>
+            <tr>
+                <td><h2><center>5</center></h1></td>
+                <td class="name"><img src="ih.png"><h2>Imam-ul-Haq</h2></td>
+                <td><img src="pk.svg"><h2>Pakistan</h2></td>
+                <td><h2>737</h2></td>
+            </tr>
+            
+        </table>
+        <br><br>
+    <ul class="ranks">
+        <li><button onclick="scroll0()">T20</a></li>
+        <li><button onclick="scroll1()">ODI</a></li>
+        <li><button class="ractive">TEST</a></li>
+      </ul>
+    <br><br>
+    
+    <div class="pl">ICC Test Rankings</div>
+    
+    <br><br>
+    <table border="5">
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Team</th>
+            <th>Rating</th>
+        </tr>
+        <tr  style="background-color: rgb(18, 53, 226);">
+            <td><h2><center>1</center></h1></td>
+            <td class="name"><img src="ml.png"><h2>Marnus Labuschagne</h2></td>
+            <td><img src="au.svg"><h2>Australia</h2></td>   
+            <td><h2>915</h2></td>
+        </tr>
+        <tr>
+            <td><h2><center>2</center></h1></td>
+            <td class="name"><img src="kw.png"><h2>Kane Williamson</h2></td>
+            <td><img src="nz.svg"><h2>New Zealand</h2></td>   
+            <td><h2>883</h2></td>
+        </tr>
+        <tr>
+            <td><h2><center>3</center></h1></td>
+            <td class="name"><img src="ss.png"><h2>Steve Smith</h2></td>
+            <td><img src="au.svg"><h2>Australia</h2></td> 
+            <td><h2>872</h2></td>
+        </tr>
+        <tr>
+            <td><h2><center>4</center></h1></td>
+            <td class="name"><img src="jr.png"><h2>Joe Root</h2></td>
+            <td><img src="gb-eng.svg"><h2>England</h2></td> 
+            <td><h2>871</h2></td>
+        </tr>
+        <tr>
+            <td><h2><center>5</center></h1></td>
+            <td class="name"><img src="babar.png"><h2>Babar Azam</h2></td>
+            <td><img src="pk.svg"><h2>Pakistan</h2></td>
+            <td><h2>862</h2></td>
+        </tr>
+        
+    </table>
+</center>
+    </section>
+<footer>
+    <footer class="left">
+
+        <h2 style="color: white;">CONTACT US<br><br></h2>
+        <h3>Tanish Fernandes</h3><br>
+        Phone : <a class="contact" href="tel:+918291803182">8291803182</a><br>
+        Mail : <a class="contact" href="mailto:tanish.f@somaiya.edu">tanish.f@somaiya.edu</a><br>
+        Web : www.sports.com<br>
+        <br><br>
+        
+
+    </footer>
+    <footer class="right">
+        <h2 style="color: white;">SOCIAL LINKS<br><br></h2>
+        <div class="social">
+            <i href="#" class="fa-brands fa-instagram"></i>
+            <i href="#contact" class="fa-brands fa-facebook"></i>
+            <i href="#contact" class="fa-brands fa-linkedin"></i>
+            <i href="#contact" class="fa-brands fa-github"></i>
+        </div>
+        <footer class="center">
+
+            <p></p>
+
+</footer>
+<script>
+    function scroll0() {
+        window.scrollTo(0,0);
+      }
+    function scroll1() {
+      window.scrollTo(0,1325);
+    }
+    function scroll2() {
+        window.scrollTo(0,2660);
+      }
+    </script>  
+            
+</body>
+
+</html>
+
